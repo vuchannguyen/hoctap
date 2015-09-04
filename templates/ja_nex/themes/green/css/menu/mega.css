@@ -1,0 +1,55 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+#ja-megamenu {
+	border-right-color: #517123;
+	border-top-color: #517123;
+	background-color: #5e832a;
+}
+
+.ja-megamenu ul.level0 li.mega a.mega {
+	border-right-color: #517123; 
+	border-left-color: #5e832a;
+}
+
+.ja-megamenu ul.level0 li.mega a.mega.first {
+	border-left: solid 1px #517123;
+}
+
+.ja-megamenu ul.level0 li.mega.over,
+.ja-megamenu ul.level0 li.mega.active {
+	margin-top: -1px;
+	margin-bottom: -1px;
+}
+
+.ja-megamenu ul.level0 li.mega a.mega.active.first {
+	border-left: solid 1px #fff;
+}
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+
+.ja-megamenu ul.level1 li.mega.over,
+.ja-megamenu ul.level1 li.mega.active {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+ /* CHILD CONTENT
+-----------------------------------*/
+
+/* Grouped --- */
+
+.ja-megamenu .childcontent .ja-moduletable a:hover,
+.ja-megamenu .childcontent .ja-moduletable a:focus,
+.ja-megamenu .childcontent .ja-moduletable a:active { color: #729e34; }

@@ -1,0 +1,154 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+#ja-megamenu {
+	border-right: solid 1px #5b211f;
+	border-top: solid 1px #5b211f;
+	background: #772f2c;
+}
+
+#ja-megamenu ul.level0 { font-family: Helvetica, Arial, sans-serif; }
+
+.ja-megamenu ul.level0 li.mega a.mega {
+	color: #fff; 
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+	padding: 13px 15px;
+	border-right: solid 1px #5b211f; 
+	border-left: solid 1px #772f2c;
+	display: block;
+}
+
+.ja-megamenu ul.level0 li.mega a.mega.first {
+	border-left: solid 1px #5B211F;
+}
+
+.ja-megamenu ul.level0 li.mega.over,
+.ja-megamenu ul.level0 li.mega.active {
+	margin-top: -1px;
+	margin-bottom: -1px;
+}
+
+.ja-megamenu ul.level0 li.mega a.mega.over,
+.ja-megamenu ul.level0 li.mega a.mega.active {
+	background: url(../../images/hover-menu.gif) repeat-x left top #e5e5e5; 
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.5);
+	color: #666;	
+	border: solid 1px #fff;
+	border-bottom: none;
+	padding: 14px 15px 13px 15px;
+	display: block;
+}
+
+.ja-megamenu ul.level0 li.mega a.mega.over {
+	background: #f2f2f2;
+	border-color: #e5e5e5;
+}
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level1 li.mega { background: none; border: none; margin: 0px;}
+
+.ja-megamenu ul.level1 li.mega a.mega {
+	color: #666;
+	text-shadow: none;
+	border: none !important; 
+	padding: 8px 0px 8px 20px;
+	margin: 0px;
+}
+
+.ja-megamenu ul.level1 li.mega.over,
+.ja-megamenu ul.level1 li.mega.active {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.ja-megamenu ul.level1 li.mega a.mega.over,
+.ja-megamenu ul.level1 li.mega a.mega.active {
+	background: #111; 
+	padding: 8px 0px 8px 20px;
+	margin: 0px;
+	border: none !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+ /* CHILD CONTENT
+-----------------------------------*/
+.ja-megamenu .childcontent-inner-wrap { background: #f2f2f2; border: 1px solid #e5e5e5; padding: 4px; }
+
+.ja-megamenu .childcontent-inner-wrap:hover,
+.ja-megamenu ul.level0 li.mega.over .childcontent-inner-wrap {
+	border-top: solid 1px #f2f2f2;
+}
+
+.ja-megamenu .childcontent-inner { 	background: #222; color: #666; }
+
+.ja-megamenu .childcontent .ja-moduletable { color: #666; }
+
+.ja-megamenu .childcontent .ja-moduletable h3 { background: none; text-transform: uppercase; }
+
+/* Grouped --- */
+
+.ja-megamenu .megacol  { background: url(../../images/line-bg.gif) repeat-y left top ; }
+
+.ja-megamenu .megacol.first { background: none; }
+
+ul.megamenu,
+.ja-megamenu .group-content .ja-moduletable, 
+.ja-megamenu .group-content ul.megamenu { margin: 0px; }
+
+.ja-megamenu .group-title { margin-top: 10px; }
+
+.ja-megamenu .group-title .menu-title {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 115%;
+}
+
+.ja-megamenu .group-title .menu-desc { color: #999; padding-left: 0 !important; }
+
+.ja-megamenu .childcontent .ja-moduletable .ja-box-ct { padding: 15px 20px; }
+
+.ja-megamenu .childcontent .ja-moduletable a {
+	color: #fff;
+	display: block;
+	margin-top: 5px;
+}
+
+.ja-megamenu .childcontent .ja-moduletable a:hover,
+.ja-megamenu .childcontent .ja-moduletable a:focus,
+.ja-megamenu .childcontent .ja-moduletable a:active { color: #c33; }
+.ja-megamenu .childcontent .ja-moduletable p {
+	display: inline-block;
+}
+
+.ja-megamenu .childcontent .ja-moduletable img {
+	display: block;
+	float: none;
+}
+
+.ja-megamenu .childcontent .ja-moduletable p strong {
+	color: #fff;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.ja-megamenu ul.level1 li.haschild a.mega span.menu-title, 
+.ja-megamenu ul.level1 li.haschild-over a.mega span.menu-title {
+	 background: url(../../images/arrow2.png) no-repeat 96% center;
+}
+
+.ja-megamenu ul.level1 li.haschild ul li a.mega span.menu-title,
+.ja-megamenu ul.level1 li.haschild-over ul li a.mega span.menu-title {
+	background: none;
+}

@@ -1,0 +1,144 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+div.ja-moduletable.absolute-title > h3,
+div.moduletable.absolute-title > h3 {
+	display: none;
+}
+ 
+.ja-zinwrap.nex { background: none; }
+
+.ja-zin { margin: 0 -5px; }
+
+.ja-zin .items-row { margin: 0; padding: 0; background: none; border: 0; float: left; }
+
+#ja-topsl1 .ja-zin .ja-box .ja-box-inner { padding-bottom: 0; }
+
+.ja-zin .ja-box .ja-box-inner { margin: 0; padding: 8px 14px 5px; }
+
+.ja-zin .ja-box-first .ja-box-inner {}
+
+.ja-zin .col-last .ja-box-inner { border-right: 0; }
+
+/* HEADING
+--------------------------------------------- */
+/* Section --- */
+.ja-zinsec { padding: 0 0 10px; position: relative; }
+
+#ja-topsl1 .ja-zinsec,
+.sidebar .ja-zinsec { padding: 0; }
+
+.ja-zinsec .ja-zinsec-inner {
+	margin-left: 5px;
+	margin-right: 5px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+}
+
+.items-row:hover .ja-zinsec {}
+
+.items-row:hover .ja-zinsec a {}
+
+.ja-zinsec .ja-zinsec-inner > h2 {
+	font-size: 100%;
+	text-transform: uppercase;
+	font-family: 'TeXGyreAdventorRegular',Helvetica,Arial,sans-serif;
+	padding: 13px 15px;
+	margin: 0px;
+	color: #666;
+	border-bottom: 1px solid #e5e5e5; 
+}
+
+.ja-zinsec h2 a {}
+
+/* Category --- */
+.ja-zincat h3 {
+	margin: 0 0 5px !important;
+	padding: 0 !important;
+	font-size: 85%;
+}
+
+.ja-zincat h3 a { }
+
+/* News Title --- */
+.ja-zin h4.ja-zintitle {
+	margin: 10px 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 110%;
+	text-transform: none;
+	line-height: 1.6;
+}
+
+.ja-zin h4.ja-zintitle a {
+	color: #222;
+}
+
+.ja-zin h4.ja-zintitle a:hover,
+.ja-zin h4.ja-zintitle a:focus,
+.ja-zin h4.ja-zintitle a:active {
+	color: #C33
+}
+
+/* CONTENT
+--------------------------------------------- */
+.ja-zincontent p { margin: 5px 0 !important; }
+
+/* Image ---*/
+.ja-zincontent img { margin: 0 0 5px; }
+
+#ja-topsl1 .ja-zincontent > img,
+.sidebar .ja-zincontent > img {
+	margin-left: -13px;
+	margin-right: -12px;
+	margin-top: -8px;
+}
+
+/* Meta ---*/
+.ja-zinmeta { line-height: normal; margin: 5px 0; color: #b5b5b5; text-transform: uppercase; font-size: 92%; }
+
+/* More Links ---*/
+.ja-zinwrap .ja-zinlinks { padding-top: 5px; border-top: 1px solid #e5e5e5; margin-top: 5px; font-size: 92%; width: 100%; display: block;}
+
+.ja-zinwrap .ja-zinlinks strong {}
+
+.ja-zinwrap .ja-zinlinks ul { padding: 0 !important; margin: 0 !important; }
+
+.ja-zinwrap .ja-zinlinks ul li {
+	padding: 0 0 0 10px;
+	background: url(images/arrow.png) no-repeat 0 5px;
+	margin: 3px 0 5px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+/* MISC.
+------------------------------------------------*/
+/* 1st & last row/column style ---*/
+.row-last { border-bottom: 0 !important; }
+
+.ja-mod-inner { position: relative; }
+
+#ja-news-pro {
+	position: absolute;
+	top: 241px;
+	left: 1px;
+	z-index: 1;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	color: #fff;
+	background: #82B040;
+	font-family: 'TeXGyreAdventorRegular',Helvetica,Arial,sans-serif;
+	text-transform: uppercase;
+}
+

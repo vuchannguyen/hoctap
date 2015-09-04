@@ -1,0 +1,26 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+#jasdl-mainnav {
+	border-right-color: #bb522c;
+	border-top-color: #bb522c;
+	background-color: #d45f34;
+}
+
+#jasdl-mainnav li a {
+	border-right-color: #bb522c; 
+	border-left-color: #d45f34;
+}
+
+#jasdl-mainnav li a.first-item {
+	border-color: #bb522c;
+}

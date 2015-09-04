@@ -1,0 +1,127 @@
+﻿
+.kprofilebox div.input span {
+	display: inline;
+	clear: both;
+	vertical-align: middle;
+}
+
+.kprofilebox div.input span label{
+	vertical-align: top;
+	margin-top: 4px;
+	display: inline-block;
+}
+
+.kprofilebox div.input span label.remember {
+	margin-top: 5px;
+}
+
+#Kunena fieldset {
+	zoom: 1;
+}
+
+#Kunena fieldset legend {
+	zoom: 1;
+}
+
+#Kunena div.kmsg-header-left span.kmsg-id-left {
+	margin-top: -15px;
+	zoom: 1;
+}
+
+#Kunena span.kright {display: inline-block; }
+
+#Kunena span.kheadbtn a {
+	display: inline-block;
+	padding: 2px; 
+	line-height: normal;
+}
+
+#Kunena td.kcol-ktopictitle span.ktopicattach {
+	margin-bottom: 0px !important;
+	margin-top: 0px !important; 
+	background-position: left top;
+}
+
+#Kunena #ksearchresult  table table  {
+	margin-bottom: 10px;
+	border-collapse: collapse;
+}
+
+#Kunena .kheader h2 {
+	float: left;
+}
+
+#Kunena .path-element-first {
+	display: inline;
+}
+
+#Kunena div.kmessage-editmarkup-cover {
+	zoom: 1;
+}
+
+#Kunena .klist-actions {
+	padding: 8px 10px 10px;
+}
+
+ul.autocompleter-choices {
+	margin-left: 0;
+	width: 135px !important;
+}
+
+#Kunena .kattachment-remove,
+#Kunena .kattachment-insert {
+	padding: 6px 12px;
+}
+
+#Kunena a.button {
+	padding: 6px 12px 5px;
+	font-size: 100%;
+}
+
+#Kunena .button,
+#Kunena input.kbutton,
+#Kunena .kattachment-remove,
+#Kunena .kattachment-insert {
+	padding: 1px 10px 2px ;
+}
+
+#Kunena select#kApproveChooseAction {
+	vertical-align: top;
+}
+#Kunena td.krowmoderation input.kbutton,
+#Kunena form#jumpto input.kbutton {
+	vertical-align: top;
+}
+
+#Kunena #kmod-container input.button {
+	padding: 6px 12px;
+}
+
+#Kunena .kattachment .kattachment-remove.kbutton,
+#Kunena .kattachment .kattachment-insert.kbutton {
+	vertical-align: top !important;
+	padding-top: 4px !important;
+	padding-bottom: 3px !important;
+	
+}
+
+#Kunena div.kblock span.select-toggle {
+	top: 8px;
+}
+
+#Kunena div.kblock span.select-toggle {
+	right: 13px;
+}
+
+#Kunena div#kmod-container a.button {
+	padding: 5px 12px 6px;
+}
+
+#Kunena div#kmod-container a.button {
+	vertical-align: top;
+	margin-top: 0px;
+}
+
+#Kunena div.current dd .kblock .kheader .kcheckbox {
+	top: 10px;
+}

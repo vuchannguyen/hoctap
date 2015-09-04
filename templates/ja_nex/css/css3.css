@@ -1,0 +1,169 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+#ja-social .ico-social,
+.connect .social a.ico-social {
+	-webkit-transition: background-position 0.3s linear;
+	-moz-transition: background-position 0.3s linear;
+	-o-transition: background-position 0.3s linear;
+	transition: background-position 0.3s linear;
+}
+
+.ja-megamenu .childcontent-inner-wrap {
+	-moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Top Menu ---*/
+#ja-topmenu { text-shadow: 0px 1px 1px rgba(0,0,0,0.4);}
+
+div.userItemViewUnpublished {
+	opacity: 0.9;
+}
+
+/* Typo Page ---*/
+.ja-typo-bubblect {
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+/* Common Style for Rounded Bubbles --- */
+.bubble-rounded .ja-typo-bubblect {
+	border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+}
+
+/* Rounded Box*/
+.box-rounded {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px; 
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+/* Rounded Box*/
+.legend-rounded {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px; 
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+/* BUTTONS
+--------------------------------------------------*/
+/* Common Buttons Style ---*/
+a.ja-typo-btn {
+	text-shadow: 0 1px 2px rgba(255,255,255,.8);
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+/* Common style for Rounded Buttons --- */
+.btn-rounded-icn, .btn-rounded-big, .btn-rounded-sm,
+.btn-rounded-icn span, .btn-rounded-big span, .btn-rounded-sm span {
+	border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px; 
+}
+
+.btn-rounded-sm, .btn-rounded-sm span {
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px; 
+}
+
+/* Common style for Rounded Tags --- */
+span.tag-rounded {
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px; 
+}
+
+/* Style 2 */
+fieldset.fieldset-2 {
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px; 
+}
+
+.ja-typo-blockswrap h2.ja-typo-title span {
+	text-shadow: 0 -1px 1px rgba(255,255,255,.8);
+}
+
+a.btn-blue,
+a.btn-red,
+a.btn-green,
+a.btn-orange,
+a.btn-black {
+	text-shadow: 0 1px 2px rgba(0,0,0,.8);
+}
+
+span.ja-typo-tag {
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+span.tag-grey {text-shadow: 0 -1px 0 rgba(255,255,255,.8); }
+
+
+/* hack for opera */
+@media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0) {
+	div.itemListSubCategories { margin: 0 -13px 0 -5px; }
+}
+
+/* hack for opera */
+@media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0) {
+	div#itemListPrimary, div#itemListSecondary { margin: 0 -13px 0 -5px; }
+
+}
+
+/* hack for opera */
+@media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0) {
+	div#itemListPrimary div.catItemBlogView, div#itemListSecondary div.catItemBlogView { margin: 0 15px 0 5px; }
+
+}
+
+
+@media all and (-webkit-min-device-pixel-ratio:10000),not all and (-webkit-min-device-pixel-ratio:0) {
+	#ja-topsl1 .ja-zincontent > img,
+	.sidebar .ja-zincontent > img { max-width: 110%; }
+
+}
+
+@-moz-document url-prefix() {
+#ja-subnav li {padding-top: 11px !important;}
+#ja-subnav ul li ul li {
+	padding-top: 0px !important;
+}
+}
+
+body:nth-of-type(1) #ja-subnav li {padding-top: 10px;}
+body:nth-of-type(1)#ja-subnav ul li ul li {padding-top: 0px;}
+body:first-of-type #ja-subnav li {padding-top: 10px;}
+body:first-of-type #ja-subnav ul li ul li {padding-top: 0px;}
+@media all and (min-width:0px) {head~body #ja-subnav li {padding-top: 10px;}}
+@media all and (min-width:0px) {head~body #ja-subnav ul li ul li {padding-top: 0px;}}
+
+#ja-subnav li  {
+    padding-top: 11px\0/;
+}
+:root #ja-subnav li { padding-top: 11px\0/ !important; }  
+:root #ja-subnav ul li ul li { padding-top: 0px\0/ !important; } 
+
+@media all and (min-width:0px) {head~body .ja-zin .ja-box .ja-box-inner { margin: 0; padding: 8px 13px 5px; }}

@@ -1,0 +1,285 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+ 
+ /* Normal links ---*/
+a:hover, a:active, a:focus { color: #729e34; }
+
+#ja-botsl2 a.links:hover,
+#ja-botsl2 a.links:focus { color: #729e34; }
+/* Readon links ---*/
+p.readmore a { color: #729e34; }
+
+/* FORM
+--------------------------------------------------------- */
+
+.button:hover,
+input[type="button"]:hover,
+button[type="submit"]:hover { color: #729e34; }
+
+/* Contact ---*/
+
+/* Profile */
+.profile > a { color: #729e34; }
+
+/* MODULE STYLES
+--------------------------------------------------------- */
+
+/* Simple Title */
+div.ja-moduletable.absolute-title.simple-title > h3,
+div.moduletable.absolute-title.simple-title > h3 {
+	background: #729e34;
+}
+
+/* Module Red */
+div.ja-moduletable.redbg h3, div.moduletable.redbg h3 { background: #729e34; }
+
+/* Accordion Module */ 
+div.ja-moduletable.redbg .ja-accordion .ja-accordion-title.active { background: #729e34; }
+
+/* Menu Module ---*/
+#ja-container ul.menu li a:hover,
+#ja-container ul.menu li a:focus,
+#ja-container ul.menu li a:active { color: #729e34; }
+
+#ja-container ul.menu li.active > a {
+	color: #729e34;
+} 
+
+/* JA News Featured Module ---*/
+div.ja-moduletable.absolute-title.simple-title div#jafp-title, 
+div.moduletable.absolute-title.simple-title div#jafp-title {
+	background-color: #729e34;
+}
+
+.ja-zinfp-links-actions a:hover, .ja-zinfp-links-actions a:active {
+	background-color: #729e34;
+}
+
+/* JA News Pro Module ---*/
+.ja-zin h4.ja-zintitle a:hover, .ja-zin h4.ja-zintitle a:focus, .ja-zin h4.ja-zintitle a:active {
+	color: #729e34;
+}
+
+/* JA Tabs ---*/
+body .nex .ja-tabs-title-top ul.ja-tabs-title li.hover, 
+body .nex .ja-tabs-title-top ul.ja-tabs-title li.firsthover, 
+body .nex .ja-tabs-title-top ul.ja-tabs-title li.lasthover {
+	color: #729e34;
+}
+
+body .nex .ja-tabs-title-top ul.ja-tabs-title li.hover h3,
+body .nex .ja-tabs-title-top ul.ja-tabs-title li.firsthover h3,
+body .nex .ja-tabs-title-top ul.ja-tabs-title li.lasthover h3	{
+	color: #729e34;
+}
+
+body .nex .ja-tabs-title-top ul.ja-tabs-title li.active,
+body .nex .ja-tabs-title-top ul.ja-tabs-title li.firstactive,
+body .nex .ja-tabs-title-top ul.ja-tabs-title li.lastactive {
+	color: #729e34;
+}
+
+body .nex .ja-tabs-title-top ul li.active h3,
+body .nex .ja-tabs-title-top ul li.firstactive h3,
+body .nex .ja-tabs-title-top ul li.lastactive h3 {
+	color: #729e34;
+}
+
+.ja-tab-subcontent a.readmore, .ja-tab-subcontent a.readon {
+	color: #729e34;
+}
+
+/* HEADER
+--------------------------------------------------------- */
+#ja-header { background: #729e34; }
+
+/* Logo Text ---*/
+
+div.logo-text h1 a { color: #729e34; }
+
+h1.logo a { background-image: url(../images/logo.png); }
+
+/* Search ---*/
+#ja-search, .moduletable_search .ja-box-ct { background-color: #5e832a; }
+
+#ja-search .search,
+.search_search{ border-color: #517123; }
+
+/* Top Header */
+#ja-social .social { background-color: #5e832a; }
+
+#ja-social .ico-social { border-left-color: #5e832a; }
+
+#ja-social .ico-social.ico-rss 			{ background-image: url(../images/icon-rss.png); }
+#ja-social .ico-social.ico-facebooks 	{ background-image: url(../images/icon-facebook.png); }
+#ja-social .ico-social.ico-twitters 	{ background-image: url(../images/icon-twitter.png); }
+
+/* NAVIGATION
+--------------------------------------------------------- */
+/* Main Nav ---*/
+#ja-mainnav { background-color: #729e34; }
+
+/* Default Joomla! Menu ---*/
+div.moduletable_menu ul li a:hover,
+div.moduletable_menu ul li a:focus,
+div.moduletable_menu ul li a:active { color: #729e34; }
+
+div.moduletable_menu ul li.active > a { color: #729e34; } 
+
+/* Default Joomla! Content ---*/
+
+/* Category page */
+.blog .items-row h2.contentheading a:hover,
+.blog .items-row h2.contentheading a:focus,
+.blog .items-row h2.contentheading a:active,
+.blog .items-leading h2.contentheading a:hover,
+.blog .items-leading h2.contentheading a:focus,
+.blog .items-leading h2.contentheading a:active { color: #729e34; }
+
+/* weblinks page */
+div.categories-list a:hover, div.categories-list a:active, div.categories-list a:focus,
+.weblink-category a:hover, .weblink-category a:active, .weblink-category a:focus { color: #729e34; }
+
+
+/* Comment */
+.jac-add-button a:hover,
+.jac-add-button a:focus,
+.jac-add-button a:active { color: #729e34; }
+
+#jac-sort a:hover,
+#jac-sort a:focus,
+#jac-sort a:active {
+	color: #729e34 !important;
+}
+
+#jac-wrapper li.buttons input:hover {
+	color: #729e34;
+}
+
+#jac-wrapper .status-isapproved span.status-btn{
+	color: #729e34;
+}
+
+#jac-wrapper .comment-action a {
+	color: #729e34;
+}
+
+#jac-wrapper .comment-action a span { color: #729e34; }
+
+#jac-wrapper .comment-showreply a span { color: #aaa; }
+
+#jac-wrapper .rank-high .comment-rankingresult { color: #729e34; }
+
+#jac-wrapper div.pagination ul li a:hover,
+#jac-wrapper div.pagination ul li a:focus,
+#jac-wrapper div.pagination ul li a:active { color: #729e34; }
+
+/* Pagination */
+div.pagination ul li span.pagenav,
+div.pagination ul li.pagination-prev span.pagenav,
+#jac-wrapper div.pagination ul li.active span {
+	background-image: url(../images/pagenav-current.png);
+	color: #fff;
+}
+
+/* SPOTLIGHT
+--------------------------------------------------------- */
+
+/* Bot spotlight ---*/
+#ja-botsl1 .wrap-inner1 { background: #729e34; }
+
+#ja-botsl1 div.moduletable_menu .ja-box-ct { background-color: #5e832a; border-color: #517123; }
+
+#ja-botsl1 div.moduletable_menu ul.menu li { background-image: url(../images/line-menu.gif); }
+
+#ja-botsl2 .social a.ico-social.ico-facebooks { background-image: url(../images/icon-facebook-bt.png); }
+
+#ja-botsl2 .social a.ico-social.ico-twitters { background-image: url(../images/icon-twitter-bt.png); }
+
+#ja-botsl2 .social a.ico-social.ico-rss { background-image: url(../images/icon-rss-bt.png); }
+
+#ja-botsl2 .social a.ico-social.ico-flick { background-image: url(../images/icon-flick-bt.png); }
+
+/* MISCELLANOUS
+----------------------------------------------------------- */
+
+/* Sticker News */
+
+.ja-healineswrap em {
+	background-image: url(../images/sticker-bg.gif);
+}
+
+/* Template Features */
+div.list-useful .blocknumber .bignumber {
+	background-image: url(../images/arround-blue.png);
+}
+
+/* FORUM
+----------------------------------------------------------- */
+
+#Kunena .button:hover, 
+#Kunena .button:focus,
+#Kunena .button:active,
+#Kunena input.kbutton:hover,
+#Kunena input.kbutton:focus,
+#Kunena input.kbutton:active,
+#Kunena .kattachment .kbutton:hover,
+#Kunena .kattachment .kbutton:focus,
+#Kunena .kattachment .kbutton:active { color: #729e34; }
+
+#Kunena .ktoggler a:hover { color: #729e34; }
+
+#Kunena .kcredits a { color: #729e34; }
+
+#Kunena #ktab ul.menu li a:hover,
+#Kunena #ktab ul.menu li a:focus { color: #729e34; }
+
+#Kunena #ktab ul.menu li.active a { color: #729e34; }
+
+#Kunena .kpagination a:hover{ border-color: #729e34; background: #729e34; }
+
+#Kunena div.kthead-title a:hover,
+#Kunena div.kthead-title a:focus,
+#Kunena div.kthead-title a:active { color: #729e34; }
+
+#Kunena div#khistory tr.ksth a { color: #729e34; }
+
+#Kunena dl.tabs dt:hover { color: #729e34; }
+
+#Kunena span.kunreadforum {
+	background-image: url("../images/folder.png") !important;
+}
+/* Contentpane ---*/
+body.contentpanea:hover, body.contentpane a:active, body.contentpane a:focus { color: #729e34; }
+
+body.contentpane #login-form input.button:hover,
+#mailtoForm button.button:hover { color: #729e34; }
+
+body.contentpane #login-form ul li a:hover,
+body.contentpane #login-form ul li a:focus { color: #729e34; }
+
+body.contentpane .button:hover,
+body.contentpane input[type="button"]:hover,
+body.contentpane button[type="submit"]:hover { color: #729e34; }
+
+#jac-sort a:hover,
+#jac-sort a:focus,
+#jac-sort a:active {
+	color: #729e34 !important;
+}
+
+#jac-wrapper input.btTxt:hover,
+#jac-wrapper input.btTxt:active {
+	color: #729e34;
+}
+
+.category-list .cat-items span.hasTip a { color: #729e34; }

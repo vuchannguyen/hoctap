@@ -1,0 +1,72 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+
+/* MODULE STYLES
+--------------------------------------------------------- */
+
+/* HEADER
+--------------------------------------------------------- */
+#ja-header { background: #2a2a2a; }
+
+/* Logo Text ---*/
+
+h1.logo a { background-image: url(../images/logo.png); }
+
+/* Search ---*/
+#ja-search, .moduletable_search .ja-box-ct { background-color: #444; }
+
+#ja-search .search,
+.search_search{ border-color: #666; }
+
+/* Top Header */
+#ja-social .social { background-color: #444; }
+
+#ja-social .ico-social { border-left-color: #444; }
+
+#ja-social .ico-social.ico-rss 			{ background-image: url(../images/icon-rss.png); }
+#ja-social .ico-social.ico-facebooks 	{ background-image: url(../images/icon-facebook.png); }
+#ja-social .ico-social.ico-twitters 	{ background-image: url(../images/icon-twitter.png); }
+
+/* NAVIGATION
+--------------------------------------------------------- */
+/* Main Nav ---*/
+#ja-mainnav { background-color: #2a2a2a; }
+
+/* Default Joomla! Content ---*/
+
+/* Pagination */
+div.pagination ul li span.pagenav,
+div.pagination ul li.pagination-prev span.pagenav,
+#jac-wrapper div.pagination ul li.active span {
+	background-image: url(../images/pagenav-current.png);
+}
+
+/* SPOTLIGHT
+--------------------------------------------------------- */
+
+/* Bot spotlight ---*/
+#ja-botsl1 .wrap-inner1 { background: #2a2a2a; }
+
+#ja-botsl1 div.moduletable_menu .ja-box-ct { background-color: #444; border-color: #666; }
+
+#ja-botsl1 div.moduletable_menu ul.menu li { background-image: url(../images/line-menu.gif); }
+
+
+/* MISCELLANOUS
+----------------------------------------------------------- */
+
+/* Template Features */
+div.list-useful .blocknumber .bignumber {
+	background-image: url(../images/arround-black.png);
+}
+

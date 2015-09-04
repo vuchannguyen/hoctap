@@ -1,0 +1,179 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+
+div.ja-moduletable.absolute-title > h3,
+div.moduletable.absolute-title > h3 {
+	display: none;
+}
+ 
+div.ja-moduletable.absolute-title div#jafp-title,
+div.moduletable.absolute-title div#jafp-title {
+	position: absolute;
+	top: 240px;
+	left: 0;
+	z-index: 1;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	color: #fff;
+	background: #000;
+	text-transform: uppercase;
+	font-family: 'TeXGyreAdventorRegular',Helvetica,Arial,sans-serif;
+}
+
+div.ja-moduletable.absolute-title.simple-title div#jafp-title,
+div.moduletable.absolute-title.simple-title div#jafp-title {
+	background: #c33;
+}
+
+div.ja-moduletable.absolute-title.hightlight-title div#jafp-title,
+div.moduletable.absolute-title.hightlight-title div#jafp-title{
+	background: #82b040;
+}
+
+/* Featured News ----*/
+.ja-zinfp-featured-wrap {
+	width: 100%;
+	float: none;
+	overflow: hidden;
+	position: relative;
+}
+
+.ja-zinfp-featured-border {
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+
+.ja-zinfp-featured h2.ja-zintitle {
+	color: #222;
+	margin: 0 0 8px;
+	font-size: 180%;
+	font-weight: bold;
+}
+
+.ja-zinfp-featured h2.ja-zintitle a {
+	color: #222;
+	display: block;
+}
+
+.ja-zinfp-featured .ja-zincontent-wrap {
+	position: absolute;
+	float: left !important;
+	width: 100% !important;
+	display: block !important;
+}
+
+.ja-zinfp-featured .ja-zincontent {
+	margin: 0;
+	padding: 0 0 8px;
+}
+
+.ja-zinfp-featured .ja-zinhasnoimage { margin-top: 50px; }
+
+.ja-zinfp-featured .ja-zincontent .content-featured { padding: 0 15px 20px; margin: 0px; }
+
+.ja-zinfp-featured .ja-zincontent-img {
+	margin: 0 0 5px;
+	overflow: hidden;
+}
+.ja-zinfp-featured .ja-zincontent-img img {
+	float: none !important;
+	margin: 0px 0px 5px;
+}
+
+.ja-zinfp-featured-border:hover .ja-zincontent-img img {
+	
+}
+
+.ja-zinfp-featured .ja-zincontent p {
+	margin: 0 0 8px;
+	padding: 2px 0;
+}
+
+/* Normal News ----*/
+.ja-zinfp-normal-wrap {
+	width: auto;
+	float: none;
+}
+
+.ja-zinfp-normal-wrap {
+    border-top: 1px solid #E5E5E5;
+    padding: 20px 10px 10px;
+}
+
+.ja-zinfp-normal .ja-zincontent {
+    margin: 0 7px;
+    padding: 0 0 10px;
+    position: relative;
+}
+
+.ja-zinfp-normal h4.ja-zintitle {
+    font-weight: bold;
+    line-height: 1.6;
+    margin: 0;
+    text-transform: none;
+}
+
+/* Actions */
+.ja-zinfp-links-actions {
+	padding: 0;
+	right: 0px;
+	height: 40px;
+	position: absolute;
+	z-index: 10;
+	width: 80px;
+}
+
+.ja-zinfp-links-actions a{
+	display: block;
+	float: right;
+	width: 40px;
+	height: 40px;
+	background-color: #000;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.ja-zinfp-links-actions-next {
+	background-image: url(next.png);
+}
+
+.ja-zinfp-links-actions-prev {
+	background-image: url(prev.png);
+}
+
+.ja-zinfp-links-actions a:hover,
+.ja-zinfp-links-actions a:active {
+	background-color: #c33;
+}
+
+
+.ja-zinfp-links-actions span.next,.ja-zinfp-links-actions .box-counter {
+	display: none;
+}
+
+.ja-zinfp-links-actions a,
+.ja-zinfp-links-actions .box-counter {
+	line-height: 0px;
+	font-size: 0px;
+	text-indent: -999em;	
+}
+
+.ja-zinfp-featured .show {
+	position: relative;
+}
+
+.ja-zinfp-normal .ja-zincontent-wrap {
+    float: left;
+    margin: 0;
+    width: 33.3%;
+}

@@ -1,0 +1,476 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* COMMON STYLE
+--------------------------------------------------------- */
+
+/* Normal links ---*/
+/* Normal links ---*/
+a { color: #666; text-decoration: none; }
+
+a:hover, a:active, a:focus { text-decoration: none; color: #c33; }
+/* Headings & Titles ---*/
+
+/* Readon links ---*/
+
+/* FORM
+--------------------------------------------------------- */
+
+/* Search */
+#ja-search #mod-search-searchword {
+	border: none !important;
+	background: none !important;
+	width: 100%;
+	text-indent: 15px;
+}
+
+#ja-search .button_hilite1 {
+	display: none;
+}
+
+/* JOOMLA STYLE
+--------------------------------------------------------- */
+/* Layout Deco ---*/
+
+/*Leading*/
+
+/*Articles grids*/
+
+body.com_content #ja-container .items-leading .leading {
+	padding: 9px;
+}
+
+div.cat-children {
+	-webkit-border-radius: 8px;
+	background-color: #fff;
+	border: #878787 solid 1px;
+	overflow: hidden;
+	padding: 9px;
+	position: relative;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 3px 9px 17px;
+}
+
+/* Typo ---*/
+.ja-typo-blockct ol {
+	margin: 10px 0 10px 20px;
+}
+
+/* Content pagination ---*/
+/* More Links */
+
+/* Pagination */
+
+/* List Filters */
+td,th {
+	padding: 2px 5px;
+}
+/* Tooltips --- */
+
+/* MAIN LAYOUT DIVS
+--------------------------------------------------------- */
+
+/* HEADER
+--------------------------------------------------------- */
+
+/* Logo Image ---*/
+h1.logo { height: 62px; width: 152px; }
+
+h1.logo a {
+	background: url(../../images/logo.png) no-repeat center;
+	display: block;
+	height: 62px;
+	width: 152px;
+}
+
+h1.logo a span { position: absolute; top: -1000px; }
+/* Logo Text ---*/
+
+/* FOOTER
+--------------------------------------------------------- */
+
+/* login ---*/
+.login label { display: block; }
+
+#ja-login input.inputbox {  
+	background: #F5F5F5;
+	border: 1px solid #D5D5D5;
+	color: #666;
+	width: 50% !important; 
+	left: 125px !important;
+}
+
+#ja-login input#modlgn-remember { 
+	width: 12px !important; 
+	height: 12px !important; 
+}
+
+#ja-login label {  color: #000 !important; }
+
+#ja-login p { 
+	margin: 0 !important;
+	border-left: none !important;
+}
+
+#ja-login p#form-login-username { 
+	-webkit-border-radius: 0;
+	border-top: none;
+}
+
+
+#ja-login ul li a {
+	background: url("../../images/arrow.png") no-repeat 0 center;
+	margin-bottom: 0;
+	padding: 0px 10px;
+	font-size: 95%;
+}
+
+#ja-login ul li a:hover,
+#ja-login ul li a:focus,
+#ja-login ul li a:active {
+	background: url("../../images/arrow.png") no-repeat 0 center;
+}
+#ja-login p#form-login-remember { border-top: none; }
+
+#ja-login .userdata { 
+	-webkit-border-radius: 8px; 
+	border: 1px solid #878787;
+	background: #fff;
+	margin: 0 9px;
+}
+
+#ja-login .button { margin: 9px 9px 9px 125px; }
+	
+input.button_search {
+	display: none;
+}
+
+input.inputbox_search {
+	border: none; 
+	width: 98%;
+	background: none;
+	padding: 0px;
+	text-align: left;
+	height: auto;
+	line-height: normal;
+}
+
+.categories-list.allpage {
+	background-color: #FFFFFF;
+	border: 1px solid #878787;
+	display: block;
+	height: auto;
+	margin: 3px 9px 17px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: auto;
+	padding: 9px;
+	-webkit-border-radius: 8px;
+}
+
+#ja-content-mass-top {
+	background-color: #FFFFFF;
+	border: 1px solid #878787;
+	display: block;
+	height: auto;
+	margin: 3px 9px 17px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: auto;
+	padding: 9px;
+	-webkit-border-radius: 8px;
+}
+.allpage .view-category .jitem-title {
+	border-bottom: solid 1px #e5e5e5;
+	color: #666666;
+	padding: 13px 0px ;
+	text-transform: uppercase;
+	display: block;
+	font-weight: bold;
+}
+
+.allpage .view-category .category-desc img {
+	width: 98%; 
+	max-width: 98%;
+	display: block;
+	margin-bottom: 10px;
+}
+
+ body.com_content #ja-content-main { padding-top:18px;} 
+ 
+.blog .article-image img {
+	width: 100%; 
+	max-width: 100%;
+	display: block;
+	margin-bottom: 10px; 
+}
+
+div.subCategoryContainer,
+.itemContainer {
+	width: 99% !important; 
+}
+
+div.subCategory a.subCategoryImage img, div.subCategory a.subCategoryImage:hover img {
+	width: 98%; 
+	max-width: 98%;
+	padding: 0px !important; 
+	margin: 0px 0px 10px 0px !important;
+	text-align: left;
+}
+
+span.catItemImage img, span.itemImage img,
+span.userItemImage img, span.tagItemImage img {
+	width: 100% !important; 
+	max-width: 100% !important; 
+	text-align: left;
+}
+div.subCategory a.subCategoryImage, div.subCategory a.subCategoryImage:hover {
+	text-align: left;
+}
+.button,
+input[type="button"],
+button[type="submit"] {
+	background: url("../../images/bg-menu.gif") repeat-x left bottom #FEFEFE;
+	border: 1px solid #DDDDDD;
+	color: #666666;
+	display: inline-block;
+	margin-right: 5px;
+	overflow: visible;
+	padding: 4px 10px 5px 10px;
+	text-transform: uppercase;
+	font-size: 90%;
+}
+
+.button:hover,
+input[type="button"]:hover,
+button[type="submit"]:hover { background: #fff; color: #c33; cursor: pointer; }
+
+/* Pagination */
+div.pagination {
+	background: url(../images/line.gif) repeat-x left top;
+}
+
+.pagination, .pagenav {
+	border: none;
+	margin: 0px 9px;
+}
+
+div.pagination div.pagination {
+	background: none;
+	float: right;
+	margin-bottom: 0px !important;
+}
+
+div.k2Pagination .pagination {
+	margin-bottom: 0px !important;
+}
+.pagination ul, ul.pagenav {
+	margin: 0px;
+}
+
+div.pagination .counter {
+	display: none;
+}
+
+div.pagination ul li {
+	line-height: 0;
+	margin-left: 5px;
+	padding: 0px;
+	line-height: normal !important;
+}
+
+div.pagination ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+div.pagination ul li a {
+	color: #333;
+	font-size: 100%; 
+	line-height: normal !important;
+	height:  auto !important;
+	display: inline-block;
+}
+
+div.pagination ul li span,
+div.pagination ul li strong,
+div.pagination ul li.pagination-prev span.pagenav {
+	padding: 10px 12px 5px;
+	background: url(../../images/pagenav.png) no-repeat center top ;
+	display: block;
+	line-height: normal;
+	color: #666;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+div.pagination, div.pagination .pagination {
+	height: auto !important;
+}
+
+div.pagination ul li span.pagenav {
+	background: url(../../images/pagenav-current.png) no-repeat center top;
+	padding: 10px 12px 5px;
+	color: #fff;
+}
+
+div.k2Pagination {
+	background: none;
+}
+
+.login-greeting {
+	padding-left: 10px; 
+	color: #333;
+}
+
+.ja-content-main .search .counter {
+	top: 100px;
+	right: 10px;
+}
+
+.ja-zinsec  {
+	border-bottom: solid 1px #e5e5e5;
+	padding: 10px 0px;
+}
+.ja-zinsec h2 {
+	text-transform: uppercase;
+	font-weight: normal;
+	left: 5px;
+}
+
+.ja-usersetting {
+	margin-left: 12px;
+}
+
+p.readmore a {
+	color: #c33;
+	font-weight: normal;
+}
+
+.ja-zincontent {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+#ja-toolbar-top .tools-btns a.button {
+	margin: 0px;
+}
+
+#form-login-submit {
+	border-bottom: none !important;
+}
+
+.contact-form input,
+.contact-form textarea{
+	width: 52%; 
+	max-width: 52%;
+}
+
+.contact-form input#jform_contact_email_copy {
+	width: auto; 
+	max-width: auto;
+}
+
+.k2AccountPage input.inputbox,
+.k2AccountPage textarea,
+.k2AccountPage input#url{
+	max-width: 36%; 
+}
+
+.newsfeed-category table th {
+	text-align: left;
+}
+
+.newsfeed-category .display-limit {
+	margin-right: 15px;
+}
+
+div#itemListLeading div.catItemBlogView div.catItemHeader h3.catItemTitle, 
+div.catItemBlogView div.catItemHeader h3.catItemTitle,
+div.itemHeader h2.itemTitle, div.userItemHeader h3.userItemTitle, div.tagItemHeader h2.tagItemTitle {
+	font-size: 120%;
+}
+
+.search #search-searchword {
+	width: 95%;
+	max-width: 95%;
+}
+
+.highslide img,
+.highslide:hover img {
+	border: none !important;
+	padding: 0px !important;
+}
+
+img[align=left] {
+	margin-right: 10px;
+}
+
+img[align=right] {
+	margin-left: 10px;
+}
+
+.jac-add-button a {
+	background: url("../../images/ico-comment.gif") no-repeat 0 center ;
+	padding-left: 19px;
+	color: #aaa;
+}
+
+.linksmeta span {
+	color: #aaa;
+}
+
+#jac-wrapper .form-userdata .jac-form-guest,
+.groupinput p{
+	float: none !important; 
+	width: 99% !important;
+	margin: 0px 0px 10px 0px !important;
+}
+
+div.itemAuthorLatest ul li, div.itemRelated ul li {
+	background-position: left 13px;
+}
+
+div.itemAuthorBlock {
+	width: 43%; 
+	max-width: 43%;
+}
+
+div.itemRelated,
+div.itemAuthorLatest {
+	float: none; 
+	width: 99%; 
+	margin: 0px;
+}
+
+.ja-thumbnailwrap {
+	margin-bottom: 20px  !important;
+}
+
+div.catItemBlogView span.catItemDateCreated, div.itemViewBlog span.itemDateCreated{
+	left: -1px;
+}
+
+.button.btn-close {
+	max-width: 100%;
+}
+
+
+#ja-popup-header h3.ja-popup-title {
+	font-size: 100%;
+	font-weight: normal;
+}

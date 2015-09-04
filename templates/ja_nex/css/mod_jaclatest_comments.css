@@ -1,0 +1,61 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+.jac-lasmod .ja-box-ct  {
+	padding: 0px !important;
+}
+
+li.jac-has-layout {
+	border-bottom: solid 1px #d5d5d5;
+	padding-bottom: 15px; 
+	margin-bottom: 10px !important;
+}
+
+.jac-lasmod-time {
+	text-transform: uppercase;
+	color: #999;
+	font-size: 95%;
+}
+
+li.jac-has-layout img  {
+	border: solid 1px #e5e5e5; 
+	margin-right: 10px;
+}
+
+p.jac-lasmod-vote {
+	margin: 5px 0px 0px 0px;
+}
+
+.jac-mod_content p {
+	margin: 5px 0px;
+}
+
+h4.jac-lasmod-title  {
+	margin-bottom: 0;
+	text-transform: none;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+h4.jac-lasmod-title a {
+	color: #222;
+}
+
+h4.jac-lasmod-title a:hover,
+h4.jac-lasmod-title a:focus,
+h4.jac-lasmod-title a:active {
+	color: #c33;
+}
+
+.jac-lasmod-author {
+	color: #666;
+}

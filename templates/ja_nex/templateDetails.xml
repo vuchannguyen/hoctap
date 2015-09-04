@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension
+	version="2.5"
+	type="template"
+	method="upgrade">
+	<name>JA_Nex</name>
+	<version>2.5.0</version>
+	<creationDate>February 2012</creationDate>
+	<author>JoomlArt.com</author>
+	<authorEmail>webmaster@joomlart.com</authorEmail>
+	<authorUrl>http://www.joomlart.com</authorUrl>
+	<copyright>Copyright (C), J.O.O.M Solutions Co., Ltd. All Rights Reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<description> <![CDATA[<p>JA Nex is now updated and available for use with Joomla 2.5</p>
+<p>Joomlart's latest addition to its powerful stable of News Themes, <strong>JA NEX</strong> comes built the newly updated JAT3 2 Framework and K2 for Joomla! 2.5</p>
+
+<p>This template does not support RTL languages</p>
+
+<p><strong>Resources :</strong></p>
+<p>|
+<a href='http://www.joomlart.com/joomla/templates/ja-nex' title='Home' target='_blank' > Template Home Page</a> |
+<a href='http://www.joomlart.com/demo/#joomla25-templates.joomlart.com/ja_nex' title='Demo' target='_blank' > Demo</a> |
+<a href='http://www.joomlart.com/forums/forumdisplay.php?332' title='forum' target='_blank' >Forum</a> |</p>
+<p>
+|<a href='http://wiki.joomlart.com/wiki/JA_T3_Framework_2/Overview' title='T3 wiki' target='_blank' >T3 Framework Wiki</a> |
+<a href='http://update.joomlart.com' title='Updates' target='_blank' >Updates</a> |
+<a href='http://pm.joomlart.com/browse/JATCNEXJ17' title='Changelog' target='_blank' >JIRA</a> |
+<a href='http://www.joomlart.com/forums/downloads.php?do=cat&id=431' title='Downloads' target='_blank' >Downloads</a> |
+</p> ]]></description>
+	<engine>t3</engine>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>info.xml</filename>
+		<filename>params.ini</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>admin</folder>
+		<folder>blocks</folder>
+		<folder>css</folder>
+		<folder>etc</folder>
+		<folder>themes</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>info</folder>
+		<folder>js</folder>
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.tpl_ja_nex.ini</language>
+	</languages>
+	<administration>
+		<languages folder="admin">
+			<language tag="en-GB">en-GB.tpl_ja_nex.ini</language>
+		</languages>
+	</administration>
+
+	<positions>
+		<position>right</position>
+		<position>accordion</position>
+		<position>slider</position>
+		<position>sl1-1</position>
+		<position>content-mass-top</position>
+		<position>ja-news-mobile</position>
+		<position>sl1-2</position>
+		<position>topbar</position>
+		<position>ja-tabs</position>
+		<position>content-mass-bottom</position>
+		<position>foot-left</position>
+		<position>foot-right</position>
+		<position>megamenu</position>
+		<position>sl1-3</position>
+		<position>social</position>		
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/jat3/jat3/core/element">
+		</fields>
+    </config>
+</extension>

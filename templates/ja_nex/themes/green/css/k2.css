@@ -1,0 +1,59 @@
+/* --- Read more --- */
+a.k2ReadMore { color: #729e34; }
+
+/*----------------------------------------------------------------------
+	Component: Item view
+----------------------------------------------------------------------*/
+
+div.itemLinks a:hover { color: #729e34; }
+
+/* Author block */
+div.itemAuthorDetails h3 a:hover, 
+span.itemAuthorUrl a, 
+div.userBlock h2 a:hover, 
+span.userURL a, 
+span.userEmail a { color: #729e34; }
+
+/* Comments */
+div.itemComments ul.itemCommentsList li span.commentAuthorName a:hover, span.commentToolbar a { color: #729e34; }
+
+/* --- Sub-category block --- */
+div.subCategory a.subCategoryMore { color: #729e34; }
+
+/* Additional class appended to the element above for further styling per group item */
+div.catItemHeader h3.catItemTitle a:hover { color: #729e34; }
+
+span.itemFeatured {
+	background: #729e34;
+}
+
+span.catItemAuthor a:hover, span.catItemAuthor a:active, span.catItemAuthor a:focus,
+.metalist a:hover, .metalist a:active, .metalist a:focus { color: #729e34; }
+
+/*----------------------------------------------------------------------
+	Modules: mod_k2_content
+----------------------------------------------------------------------*/
+
+div.k2ItemsBlock ul li a.moduleItemCategory:hover { color: #729e34; }
+
+div.k2ItemsBlock ul li a.moduleItemReadMore { color: #729e34; }
+
+div.k2ArchivesBlock ul li a:hover,
+div.k2ArchivesBlock ul a:focus,
+div.k2ArchivesBlock ul a:active { color: #729e34; }
+
+div.k2CategoriesListBlock ul li a:hover,
+div.k2CategoriesListBlock ul a:focus,
+div.k2CategoriesListBlock ul a:active { color: #729e34; }
+
+div.itemHeader h2.itemTitle a:hover, 
+div.itemHeader h2.itemTitle a:focus, 
+div.itemHeader h2.itemTitle a:active,
+div.userItemHeader h3.userItemTitle a:hover, 
+div.userItemHeader h3.userItemTitle a:focus, 
+div.userItemHeader h3.userItemTitle a:active,
+div.tagItemHeader h2.tagItemTitle a:hover,
+div.tagItemHeader h2.tagItemTitle a:focus,
+div.tagItemHeader h2.tagItemTitle a:active { color: #729e34 ; }
+
+div.itemComments ul.itemCommentsList li span.commentLink a { color: #729e34; }

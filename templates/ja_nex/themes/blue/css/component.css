@@ -1,0 +1,20 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+ */
+body.contentpane #login-form input.button:hover,
+#mailtoForm button.button:hover { color: #3377bb; }
+
+body.contentpane #login-form ul li a:hover,
+body.contentpane #login-form ul li a:focus { color: #3377bb; }
+
+body.contentpane .button:hover,
+body.contentpane input[type="button"]:hover,
+body.contentpane button[type="submit"]:hover { color: #3377bb; }

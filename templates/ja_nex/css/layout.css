@@ -1,0 +1,54 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* COMMON STYLE
+--------------------------------------------------------- */
+.column { overflow: visible; }
+
+.column div.ja-moduletable, 
+.column div.moduletable, 
+.column div.ja-module, .column div.module {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#ja-main .inner {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.main .main-inner1 {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+#ja-topsl1 .ja-box-right {
+	position: static;
+}
+
+.items-row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.items-leading {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.item .contentpaneopen,
+.leading .contentpaneopen {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}

@@ -1,0 +1,143 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Nex Template for Joomla 2.5
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+/* ------------------- */
+/* -- typo.css  -- */
+/* ------------------- */
+
+/* MESSAGE BOXES AND LEGENDS STYLE
+-----------------------------------------------------------------*/
+br.clearfix { display: none !important; }
+
+.ja-typo-bubblect { zoom: 1; }
+
+.ja-typo-legend { zoom: 1; }
+
+fieldset.ja-typo-fieldset { overflow: hidden; }
+
+.ja-typo-blockrow fieldset.ja-typo-fieldset { margin-bottom: 20px; }
+.custombadge-new li {
+	zoom: 0 !important;
+}
+
+a.links {
+	vertical-align: top;
+	margin-top: 1px;
+}
+
+#jac-wrapper .comment-menu .menu-content {
+	position: absolute;
+	top: -999em;
+	z-index: 900;
+}
+
+#jac-wrapper .comment-menu:hover .menu-content {
+	display: block !important;
+	top: auto;
+	width: auto;
+	z-index: 900;
+}
+
+#jac-wrapper .comment-menu {
+	float: left;
+	position: relative;
+}
+
+#jac-wrapper .form-upload {
+	margin-bottom: -3px !important;
+}
+
+.comment-data fieldset.fieldset {
+}
+
+#jac-wrapper .comment-contentmain {
+	padding: 10px;
+}
+
+#jac-wrapper .comment-report,
+#jac-wrapper .comment-heading span {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 18px;
+}
+
+.button,
+input[type="button"],
+button[type="submit"] {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#jac-wrapper .type_captcha {
+	 padding: 5px 5px 5px 2px;
+}
+#jac-wrapper .type_captcha span  { vertical-align: top; float: none;}
+
+#jac-wrapper #textCaptcha {
+	padding: 0px;
+}
+
+.pane-slider .contact-miscinfo .jicons-icons,
+.tabs .contact-miscinfo .jicons-icons { margin-top: 15px; }
+
+.contact input[type="checkbox"] {
+	margin-left: -3px;
+}
+
+.contact .contact-form legend {
+	text-align: left;
+	margin-left: -10px;
+}
+
+.newsfeed-category .display-limit { margin: 10px 0 5px; }
+
+#ja-search .search { padding-top: 4px; padding-bottom: 4px; }
+
+div.current .tabs {
+	float: left;
+}
+
+#ja-subnav ul li ul {
+	border-top: solid 1px #fff;
+}
+
+img.ja-comment-attachimage {
+	margin-bottom: 15px; 
+}
+
+.ja-zinfp-featured-border {
+	width: 100% !important; 
+	float: none !important;
+}
+.ja-zinfp-featured-wrap {
+	float: none !important;
+}
+
+.ja-zinfp-featured .ja-zincontent-wrap {
+	float: left !important;
+	width: 490px !important;
+	display: block !important;
+}
+
+.ja-accordion-content {
+	float: left;
+}
+
+#jac-wrapper .comment-text ul li { 
+	margin-bottom: 0px;
+}
+
+#ja-botsl2 div.ja-moduletable.connect .ja-box-ct, #ja-botsl2 div.moduletable.connect .ja-box-ct {
+	padding-bottom: 25px !important;
+}
+#ja-topsl1 .letter a.links {
+	padding: 3px 8px 2px;
+}
